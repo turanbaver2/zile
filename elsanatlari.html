@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Sanatları - Zile Geleneksel Beceriler Portalı</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        background-color: #f9f7f7; /* Soft Gri */
+        font-family: 'Arial', sans-serif; /* Yazı fontu */
+    }
+    .navbar {
+        background-color: #2c3e50; /* Koyu Mavi */
+        color: #ffffff; /* Beyaz */
+    }
+    .navbar .btn-search {
+        background-color: #e74c3c; /* Kırmızı */
+        color: #ffffff; /* Beyaz */
+        border-color: #e74c3c; /* Kırmızı */
+    }
+    .footer {
+        background-color: #2c3e50; /* Koyu Mavi */
+        color: #ffffff; /* Beyaz */
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px; /* Alt kısma boşluk ekle */
+    }
+    .carousel-container {
+        margin-top: 20px; /* Carousel ile üst kısım arasında boşluk */
+    }
+    .carousel-item img {
+        object-fit: cover;
+        height: 400px;
+        margin: 0 auto; /* Resimleri ortala */
+    }
+    .bottom-section {
+        margin-top: 40px; /* Slider ile meslek kutucukları arasında boşluk */
+    }
+    .box {
+        text-align: center;
+        margin-bottom: 20px;
+        transition: transform 0.2s; /* Hover efekti */
+    }
+    .box:hover {
+        transform: scale(1.05); /* Hover efekti */
+    }
+    .box img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px; /* Köşeleri yuvarla */
+    }
+    .box h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    .box p {
+        font-size: 1rem;
+        color: #555;
+    }
+    .box a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="anasayfa.html">Zile Geleneksel Beceriler Portalı</a>
+        <form class="d-flex ms-auto">
+            <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search">
+            <button class="btn btn-search" type="submit">Ara</button>
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="anasayfa.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="koleksiyonDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Koleksiyon
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="koleksiyonDropdown">
+                        <li><a class="dropdown-item" href="zanaatlar.html">Zanaatlar</a></li>
+                        <li><a class="dropdown-item" href="elsanatlari.html">El Sanatları</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eğitim.html">Eğitim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alışveriş.html">Alışveriş</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletişim.html">İletişim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="giriş.html">Giriş Yap</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 left-column">
+            <h1>El Sanatları</h1>
+            <p>
+Zile, Tokat'ın tarihî ve kültürel zenginlikleriyle öne çıkan bir ilçesi olarak, el sanatları konusunda da köklü bir geleneğe sahiptir. Osmanlı döneminden günümüze uzanan bu miras, ahşap oymacılığı, doğal taş işlemeciliği, seramik yapımı ve yazmacılık gibi çeşitli el sanatlarını kapsar. Zile'deki el sanatları ustaları, doğal malzemeleri büyük bir ustalıkla işleyerek, estetik ve işlevsel eserler ortaya koyarlar. Bu el sanatları, bölgenin kültürel kimliğini yansıtırken, aynı zamanda turistik eşya ve dekoratif ürünler olarak yerel ekonomiye de katkıda bulunur. Modern üretim tekniklerine rağmen, geleneksel yöntemlerle yapılan el sanatları ürünleri, Zile'de halen büyük bir ilgi görmektedir ve bu zengin miras, ustadan çırağa aktarılmaya devam etmektedir.</p>
+        </div>
+        <div class="col-md-8 right-column">
+            <div id="carouselExampleControls" class="carousel slide carousel-container" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/doğal taş.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/dokumacılık.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ahşap.jfif" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Önceki</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Sonraki</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row bottom-section">
+        <div class="col-md-4">
+            <div class="box">
+                <a href="dogaltasislemeciligi.html">
+                    <img src="img/images (1).jfif" alt="Doğal Taş İşlemeciliği">
+                    <h3>Doğal Taş İşlemeciliği</h3>
+                    <p>Buraya Doğal Taş İşlemeciliği ile ilgili yazı gelecek.</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <a href="ahsapoymaciligi.html">
+                    <img src="img/ahşap.jfif" alt="Ahşap Oymacılığı">
+                    <h3>Ahşap Oymacılığı</h3>
+                    <p>Buraya Ahşap Oymacılığı ile ilgili yazı gelecek.</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <a href="dokumacilik.html">
+                    <img src="img/dokumacılık.jpg" alt="Dokumacılık">
+                    <h3>Dokumacılık</h3>
+                    <p>Buraya Dokumacılık ile ilgili yazı gelecek.</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <a href="seramikyapimi.html">
+                    <img src="img/seramik.jfif" alt="Seramik Yapımı">
+                    <h3>Seramik Yapımı</h3>
+                    <p>Buraya Seramik Yapımı ile ilgili yazı gelecek.</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <a href="yazmacilik.html">
+                    <img src="img/yazmacılık.jfif" alt="Yazmacılık">
+                    <h3>Yazmacılık</h3>
+                    <p>Buraya Yazmacılık ile ilgili yazı gelecek.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; 2024 Zile Geleneksel Beceriler Portalı</p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-end">İletişim Bilgileri</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelectorAll('.dropdown-submenu a.dropdown-toggle').forEach(function(element) {
+        element.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var submenu = this.nextElementSibling;
+            submenu.classList.toggle('show');
+            if (submenu.classList.contains('show')) {
+                submenu.parentElement.classList.add('show');
+            } else {
+                submenu.parentElement.classList.remove('show');
+            }
+        });
+    });
+
+    document.querySelectorAll('.dropdown').forEach(function(element) {
+        element.addEventListener('hidden.bs.dropdown', function(e) {
+            element.querySelectorAll('.dropdown-submenu .show').forEach(function(submenu) {
+                submenu.classList.remove('show');
+            });
+        });
+    });
+</script>
+</body>
+</html>

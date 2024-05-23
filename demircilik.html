@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demircilik</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        background-color: #f9f7f7; /* Soft Gri */
+        font-family: 'Arial', sans-serif; /* Yazı fontu */
+    }
+    .navbar {
+        background-color: #2c3e50; /* Koyu Mavi */
+        color: #ffffff; /* Beyaz */
+    }
+    .navbar-nav .nav-link {
+        color: #ffffff; /* Beyaz */
+    }
+    .btn-search {
+        background-color: #e74c3c; /* Kırmızı */
+        color: #ffffff; /* Beyaz */
+        border-color: #e74c3c; /* Kırmızı */
+    }
+    footer {
+        background-color: #2c3e50; /* Koyu Mavi */
+        color: #ffffff; /* Beyaz */
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px; /* Alt kısma boşluk ekle */
+    }
+    .left-column, .middle-column, .right-column {
+        background-color: #ffffff; /* Beyaz */
+        color: #000000; /* Siyah */
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .mb-4 {
+        margin-bottom: 1.5rem; /* Biraz boşluk bırak */
+    }
+    .text-center {
+        text-align: center;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .content-box {
+        background-color: #ffffff; /* Beyaz */
+        border: 1px solid #ddd; /* Hafif bir çerçeve */
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px; /* Köşeleri yuvarla */
+    }
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        border-radius: 8px; /* Köşeleri yuvarla */
+    }
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .gallery img {
+        margin-bottom: 10px;
+        border-radius: 8px; /* Köşeleri yuvarla */
+    }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="anasayfa.html">Zile Geleneksel Beceriler Portalı</a>
+        <form class="d-flex ms-auto">
+            <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search">
+            <button class="btn btn-search" type="submit">Ara</button>
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="anasayfa.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="koleksiyonDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Koleksiyon
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="koleksiyonDropdown">
+                        <li><a class="dropdown-item" href="zanaatlar.html">Zanaatlar</a></li>
+                        <li><a class="dropdown-item" href="elsanatlari.html">El Sanatları</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eğitim.html">Eğitim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alışveriş.html">Alışveriş</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletişim.html">İletişim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="giriş.html">Giriş Yap</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 middle-column">
+            <h1 class="text-center">Demircilik</h1>
+            <div class="mb-4"></div> <!-- Biraz boşluk bırak -->
+            <h2>Mesleğin Tarihçesi</h2>
+            <div class="content-box">
+                <p>Demircilik, Zile'nin köklü zanaat dallarından biridir. Osmanlı döneminde demircilik, savaş malzemeleri ve tarım aletlerinin üretimi için büyük önem taşırdı. Zile'deki demirciler, Osmanlı ordusu için kılıç, mızrak, zırh gibi savaş ekipmanları yaparlardı. Tarımın yaygın olduğu bu bölgede, saban, orak, çapa gibi tarım aletleri de demircilerin elinden çıkardı.</p>
+            </div>
+            <h2>Günümüzde Demircilik</h2>
+            <div class="content-box">
+                <p>Günümüzde demircilik, Zile'de sınırlı bir ölçüde de olsa devam etmektedir. Modern fabrikaların yaygınlaşması ile geleneksel demircilik azalmakla birlikte, hala bazı ustalar tarafından yaşatılmaktadır. Bu ustalar, özellikle dekoratif demir işleri, bahçe aksesuarları ve geleneksel aletlerin tamir ve yapımıyla ilgilenmektedirler.</p>
+            </div>
+            <h2>Kullandığı Malzemeler</h2>
+            <div class="content-box">
+                <p>Demirciler, demir, çelik, kömür ve çeşitli el aletleri kullanırlar. Demirin şekillendirilmesi için ocak, körük, örs, çekiç gibi temel aletler gereklidir. Ayrıca, çeşitli kesme ve şekillendirme aletleri de kullanılır.</p>
+            </div>
+            <h2>Mesleğin İcra Edilişi</h2>
+            <div class="content-box">
+                <p>Demircilik, demirin yüksek sıcaklıklarda ısıtılarak şekillendirilmesi esasına dayanır. Demir, ocakta yüksek sıcaklığa kadar ısıtıldıktan sonra örs üzerinde çekiçle dövülerek istenilen şekil verilir. Bu işlem sırasında demirin sürekli ısıtılması ve dövülmesi gerekir. Şekillendirme işlemi tamamlandıktan sonra, demir ürünler suya daldırılarak sertleştirilir.</p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h2>Resim Galerisi</h2>
+            <div class="row gallery">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/200x150" class="img-fluid" alt="Resim 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/200x150" class="img-fluid" alt="Resim 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/200x150" class="img-fluid" alt="Resim 3">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/200x150" class="img-fluid" alt="Resim 4">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/200x150" class="img-fluid" alt="Resim 5">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/200x150" class="img-fluid" alt="Resim 6">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; 2024 Zile Geleneksel Beceriler Portalı</p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-end">İletişim Bilgileri</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelectorAll('.dropdown-submenu a.dropdown-toggle').forEach(function(element) {
+        element.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var submenu = this.nextElementSibling;
+            submenu.classList.toggle('show');
+            if (submenu.classList.contains('show')) {
+                submenu.parentElement.classList.add('show');
+            } else {
+                submenu.parentElement.classList.remove('show');
+            }
+        });
+    });
+
+    document.querySelectorAll('.dropdown').forEach(function(element) {
+        element.addEventListener('hidden.bs.dropdown', function(e) {
+            element.querySelectorAll('.dropdown-submenu .show').forEach(function(submenu) {
+                submenu.classList.remove('show');
+            });
+        });
+    });
+</script>
+</body>
+</html>
